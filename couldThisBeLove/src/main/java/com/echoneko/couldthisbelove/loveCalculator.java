@@ -16,9 +16,9 @@ public class loveCalculator {
         int loveScore = randomObject.nextInt(101);
 
         if (loveScore > 80) {
-            System.out.println(yourName + " and " + theirName + " are a match made in heaven.");
+            System.out.println(yourName + " and " + theirName + " go together like Bella and Edward.");
         } else if (loveScore > 40) {
-            System.out.println(yourName + " and " + theirName + " are the best of friends.");
+            System.out.println(yourName + " and " + theirName + " go together like carrots and peas.");
         } else {
             System.out.println(yourName + " and " + theirName + " should get out while they still can!");
         }
